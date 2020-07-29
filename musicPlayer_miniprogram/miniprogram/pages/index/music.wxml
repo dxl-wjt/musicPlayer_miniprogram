@@ -1,0 +1,78 @@
+<!-- 音乐推荐界面 -->
+<scroll-view class='content-info' scroll-y>
+
+	<!-- 轮播图 -->
+	<swiper class='content-info-slide' indicator-color='rgba(255,255,255,.5)' indicator-active-color='#fff' indicator-dots circular autoplay>
+
+		<swiper-item>
+			<image class='i' src='cloud://music-player-dxl.6d75-music-player-dxl-1302745118/musicList/images/swiper01.png'></image>
+		</swiper-item>
+
+		<swiper-item>
+			<image class='i' src='cloud://music-player-dxl.6d75-music-player-dxl-1302745118/musicList/images/swiper02.png'></image>
+		</swiper-item>
+
+		<swiper-item>
+			<image class='i' src='cloud://music-player-dxl.6d75-music-player-dxl-1302745118/musicList/images/swiper03.png'></image>
+		</swiper-item>
+	</swiper>
+
+	<!-- 功能按钮 -->
+	<view class='content-info-portal'>
+		<view>
+			<image src='cloud://music-player-dxl.6d75-music-player-dxl-1302745118/musicList/images/电台.png'></image>
+			<text>私人FM</text>
+		</view>
+		<view>
+			<image src='cloud://music-player-dxl.6d75-music-player-dxl-1302745118/musicList/images/推荐.png'></image>
+			<text>每日歌曲推荐</text>
+		</view>
+		<view>
+			<image src='cloud://music-player-dxl.6d75-music-player-dxl-1302745118/musicList/images/新歌.png' />
+			<text>新歌榜</text>
+		</view>
+	</view>
+
+	<!-- 热门音乐 -->
+	<view class='content-info-list'>
+	  <view class='list-title'>热门推荐</view>
+	  	<view class='list-inner'>
+        <view class='list-item'>
+          <image src='cloud://music-player-dxl.6d75-music-player-dxl-1302745118/musicList/images/音乐01.png' />
+          <view>别问，问就是嗨</view>
+        </view>
+        <view class='list-item'>
+          <image src='cloud://music-player-dxl.6d75-music-player-dxl-1302745118/musicList/images/音乐02.png' />
+          <view>新海诚</view>
+        </view>
+        <view class='list-item'>
+          <image src='cloud://music-player-dxl.6d75-music-player-dxl-1302745118/musicList/images/音乐03.png' />
+          <view>甜蜜说唱</view>
+        </view>
+        <view class='list-item'>
+          <image src='cloud://music-player-dxl.6d75-music-player-dxl-1302745118/musicList/images/音乐04.png' />
+          <view>不如翻唱系列</view>
+        </view>
+        <view class='list-item'>
+          <image src='cloud://music-player-dxl.6d75-music-player-dxl-1302745118/musicList/images/音乐05.png' />
+          <view>吹不完的中国风</view>
+        </view>
+        <view class='list-item'>
+          <image src='cloud://music-player-dxl.6d75-music-player-dxl-1302745118/musicList/images/音乐06.png' />
+          <view>骑摩托的小青蛙</view>
+        </view>
+        <view class='list-item'>
+          <image src='cloud://music-player-dxl.6d75-music-player-dxl-1302745118/musicList/images/音乐07.png' />
+          <view>老夫的少女心</view>
+        </view>
+        <view class='list-item'>
+          <image src='cloud://music-player-dxl.6d75-music-player-dxl-1302745118/musicList/images/音乐08.png' />
+          <view>雨 | 生</view>
+        </view>
+        <view class='list-item'>
+          <image src='cloud://music-player-dxl.6d75-music-player-dxl-1302745118/musicList/images/音乐09.png' />
+          <view>熬不完的夜，喝不完的枸杞</view>
+        </view>
+		</view>
+	</view>
+</scroll-view>

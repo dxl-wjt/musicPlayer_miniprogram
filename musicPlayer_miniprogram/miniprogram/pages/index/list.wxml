@@ -1,0 +1,12 @@
+<scroll-view class='mcontent-list' scroll -y >
+	<view class='mlist-item' wx:for='{{playlist}}' wx:key='id' bindtap='change' data-index="{{index}}">
+		<image class='mlist-cover' src='{{item.cover}}'></image>
+		<view class='mlist-info'>
+			<view class='mlist-info-title'>{{item.title}}</view>
+			<view class='mlist-info-singer'>{{item.singer}}</view>
+		</view>
+		<view class='mlist-controls'>
+				<image wx:if="{{index==playIndex}}" src="cloud://music-player-dxl.6d75-music-player-dxl-1302745118/musicList/images/播放.png"></image>
+		</view>
+	</view>
+</scroll-view>

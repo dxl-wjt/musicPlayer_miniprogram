@@ -1,0 +1,16 @@
+<view class="MV">
+  <view class="MVContent">
+    <video src="cloud://music-player-dxl.6d75-music-player-dxl-1302745118/musicList/告白气球/[高清 1080P] 【1080P】周杰伦 - 告白气球原版MV.flv"></video>
+  </view>
+  <view class="MVCom">
+    <view class="comment">
+      <view class="text">
+        <text>热门评论</text>
+      </view>
+      <view class="input">
+        <input placeholder="请输入评论"></input>
+      </view>
+    </view>
+    <view class="list"></view>
+  </view>
+</view>

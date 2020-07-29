@@ -1,0 +1,44 @@
+.MV{
+  display: flex;
+  flex-direction:column ;
+  justify-content: space-between;
+  height: 100%;
+  overflow: hidden;
+}
+.MVContent{
+  height:500rpx;
+  /* background: #bfa; */
+}
+.MVContent > video{
+  width: 100%;
+  height: 100%;
+}
+.MVCom{
+  border-top: 1rpx solid grey;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+}
+.comment{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* background-color: bisque; */
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 13pt;
+  border-bottom: 1rpx solid grey;
+}
+.text{
+  margin: 0 10rpx;
+}
+.input{
+  border-left: 4rpx solid grey;
+  padding-left: 10rpx;
+}
+.list{
+  background-color: #bfa;
+}
+
+
